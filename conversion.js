@@ -18,8 +18,13 @@ console.log(booleanIsLoggedIn);*/
 
 //***********OPERATION ***********/
 // let value = 3;
-console.log("1" + 2);
-console.log(1 + "2");
-console.log("1" + 2 + 2);//depend on the firt letter which type datatype
-console.log(2 + 2 + "2");
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);//depend on the firt letter which type datatype
+// console.log(2 + 2 + "2");
+
+
+//backtick
+let name ="nisha";
+console.log(`my name ${name}`);
 
