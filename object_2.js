@@ -59,7 +59,13 @@ const users = [
 ]
 
 //most used keys method
-console.log(Object.keys(users));
-console.log(Object.values(users));
-console.log(Object.entries(users));
+// console.log(Object.keys(users));
+// console.log(Object.values(users));
+// console.log(Object.entries(users));
 //console.log(users[2].id);
+
+//DESTRUCTOR WHEN WE NEED TO CALL THE SAME OBJECT LOTS OF TIME THEN USED DESTRUTOR
+
+const {fullname} = objt3;
+
+console.log(fullname)
